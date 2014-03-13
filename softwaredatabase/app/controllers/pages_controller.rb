@@ -8,7 +8,7 @@ class PagesController < ApplicationController
   def list 
   end
 
-  def list 
+  def register 
   end
 
 end
