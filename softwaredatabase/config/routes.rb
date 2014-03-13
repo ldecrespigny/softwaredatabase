@@ -1,4 +1,8 @@
 Softwaredatabase::Application.routes.draw do
+  root "pages#home"
+  get "about" => "pages#about"
+  get "list" => "pages#list"
+  get "register" => "pages#register"
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
